@@ -1,0 +1,798 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+	<head>
+		<meta http-equiv="Content-Type" content="charset=windows-1252" />
+		<!--[if gte mso 9]>
+		<xml>
+			<x:ExcelWorkbook>
+				<x:ExcelWorksheets>
+					<x:ExcelWorksheet>
+						<x:Name>matrix</x:Name>
+						<x:WorksheetOptions>
+							<x:Print>
+								<x:ValidPrinterInfo/>
+							</x:Print>
+						</x:WorksheetOptions>
+					</x:ExcelWorksheet>
+				</x:ExcelWorksheets>
+			</x:ExcelWorkbook>
+		</xml>
+		<![endif]-->
+	</head>
+	<body>
+		<style>
+			.stub1 {
+				mso-style-parent:style0;
+				mso-number-format:\@;
+				vertical-align:middle;
+			}
+			.headfirst {
+				mso-style-parent:style0;
+				mso-number-format:\@;
+			}
+			.headlast {
+				mso-style-parent:style0;
+				mso-number-format:\@;
+			}
+			.headmid {
+				mso-style-parent:style0;
+				mso-number-format:\@;
+			}
+			.title
+				mso-style-parent:style0;
+				text-align:left;
+			}
+		</style>
+<table class="pxtable" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<th colspan="4">Ready mixed concrete by region (AST) (Qrtly-Mar/Jun/Sep/Dec)</th>
+	</tr>
+	<tr>
+		<td class="headfirst" colspan="1" rowspan="2">&nbsp;</td>
+		<th class="headfirst" colspan="3">Total New Zealand</th>
+	</tr>
+	<tr>
+		<th class="headlast" colspan="1">Actual</th>
+		<th class="headlast" colspan="1">Seasonally adjusted</th>
+		<th class="headlast" colspan="1">Trend</th>
+	</tr>
+	<tr>
+		<td class="stub1">1992Q1</td>
+		<td style="white-space: nowrap;">329.000</td>
+		<td style="white-space: nowrap;">..</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">1992Q2</td>
+		<td style="white-space: nowrap;">363.000</td>
+		<td style="white-space: nowrap;">..</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">1992Q3</td>
+		<td style="white-space: nowrap;">323.000</td>
+		<td style="white-space: nowrap;">326.332</td>
+		<td style="white-space: nowrap;">329.576</td>
+	</tr>
+	<tr>
+		<td class="stub1">1992Q4</td>
+		<td style="white-space: nowrap;">372.000</td>
+		<td style="white-space: nowrap;">365.023</td>
+		<td style="white-space: nowrap;">361.011</td>
+	</tr>
+	<tr>
+		<td class="stub1">1993Q1</td>
+		<td style="white-space: nowrap;">382.000</td>
+		<td style="white-space: nowrap;">386.040</td>
+		<td style="white-space: nowrap;">389.190</td>
+	</tr>
+	<tr>
+		<td class="stub1">1993Q2</td>
+		<td style="white-space: nowrap;">413.000</td>
+		<td style="white-space: nowrap;">410.284</td>
+		<td style="white-space: nowrap;">407.488</td>
+	</tr>
+	<tr>
+		<td class="stub1">1993Q3</td>
+		<td style="white-space: nowrap;">410.000</td>
+		<td style="white-space: nowrap;">415.751</td>
+		<td style="white-space: nowrap;">415.216</td>
+	</tr>
+	<tr>
+		<td class="stub1">1993Q4</td>
+		<td style="white-space: nowrap;">426.000</td>
+		<td style="white-space: nowrap;">418.515</td>
+		<td style="white-space: nowrap;">421.978</td>
+	</tr>
+	<tr>
+		<td class="stub1">1994Q1</td>
+		<td style="white-space: nowrap;">436.000</td>
+		<td style="white-space: nowrap;">441.928</td>
+		<td style="white-space: nowrap;">439.151</td>
+	</tr>
+	<tr>
+		<td class="stub1">1994Q2</td>
+		<td style="white-space: nowrap;">458.000</td>
+		<td style="white-space: nowrap;">456.153</td>
+		<td style="white-space: nowrap;">464.308</td>
+	</tr>
+	<tr>
+		<td class="stub1">1994Q3</td>
+		<td style="white-space: nowrap;">486.000</td>
+		<td style="white-space: nowrap;">493.285</td>
+		<td style="white-space: nowrap;">493.012</td>
+	</tr>
+	<tr>
+		<td class="stub1">1994Q4</td>
+		<td style="white-space: nowrap;">530.000</td>
+		<td style="white-space: nowrap;">520.282</td>
+		<td style="white-space: nowrap;">520.315</td>
+	</tr>
+	<tr>
+		<td class="stub1">1995Q1</td>
+		<td style="white-space: nowrap;">521.155</td>
+		<td style="white-space: nowrap;">529.345</td>
+		<td style="white-space: nowrap;">526.731</td>
+	</tr>
+	<tr>
+		<td class="stub1">1995Q2</td>
+		<td style="white-space: nowrap;">526.479</td>
+		<td style="white-space: nowrap;">516.512</td>
+		<td style="white-space: nowrap;">524.314</td>
+	</tr>
+	<tr>
+		<td class="stub1">1995Q3</td>
+		<td style="white-space: nowrap;">524.398</td>
+		<td style="white-space: nowrap;">533.069</td>
+		<td style="white-space: nowrap;">526.019</td>
+	</tr>
+	<tr>
+		<td class="stub1">1995Q4</td>
+		<td style="white-space: nowrap;">543.983</td>
+		<td style="white-space: nowrap;">534.366</td>
+		<td style="white-space: nowrap;">543.266</td>
+	</tr>
+	<tr>
+		<td class="stub1">1996Q1</td>
+		<td style="white-space: nowrap;">545.317</td>
+		<td style="white-space: nowrap;">569.189</td>
+		<td style="white-space: nowrap;">560.533</td>
+	</tr>
+	<tr>
+		<td class="stub1">1996Q2</td>
+		<td style="white-space: nowrap;">566.897</td>
+		<td style="white-space: nowrap;">565.113</td>
+		<td style="white-space: nowrap;">568.650</td>
+	</tr>
+	<tr>
+		<td class="stub1">1996Q3</td>
+		<td style="white-space: nowrap;">545.829</td>
+		<td style="white-space: nowrap;">567.603</td>
+		<td style="white-space: nowrap;">569.293</td>
+	</tr>
+	<tr>
+		<td class="stub1">1996Q4</td>
+		<td style="white-space: nowrap;">569.226</td>
+		<td style="white-space: nowrap;">573.958</td>
+		<td style="white-space: nowrap;">566.843</td>
+	</tr>
+	<tr>
+		<td class="stub1">1997Q1</td>
+		<td style="white-space: nowrap;">532.950</td>
+		<td style="white-space: nowrap;">558.456</td>
+		<td style="white-space: nowrap;">570.593</td>
+	</tr>
+	<tr>
+		<td class="stub1">1997Q2</td>
+		<td style="white-space: nowrap;">605.364</td>
+		<td style="white-space: nowrap;">600.641</td>
+		<td style="white-space: nowrap;">580.813</td>
+	</tr>
+	<tr>
+		<td class="stub1">1997Q3</td>
+		<td style="white-space: nowrap;">564.630</td>
+		<td style="white-space: nowrap;">581.295</td>
+		<td style="white-space: nowrap;">588.844</td>
+	</tr>
+	<tr>
+		<td class="stub1">1997Q4</td>
+		<td style="white-space: nowrap;">579.370</td>
+		<td style="white-space: nowrap;">587.493</td>
+		<td style="white-space: nowrap;">582.099</td>
+	</tr>
+	<tr>
+		<td class="stub1">1998Q1</td>
+		<td style="white-space: nowrap;">540.501</td>
+		<td style="white-space: nowrap;">570.041</td>
+		<td style="white-space: nowrap;">574.114</td>
+	</tr>
+	<tr>
+		<td class="stub1">1998Q2</td>
+		<td style="white-space: nowrap;">581.476</td>
+		<td style="white-space: nowrap;">561.565</td>
+		<td style="white-space: nowrap;">555.906</td>
+	</tr>
+	<tr>
+		<td class="stub1">1998Q3</td>
+		<td style="white-space: nowrap;">537.459</td>
+		<td style="white-space: nowrap;">539.221</td>
+		<td style="white-space: nowrap;">545.219</td>
+	</tr>
+	<tr>
+		<td class="stub1">1998Q4</td>
+		<td style="white-space: nowrap;">552.628</td>
+		<td style="white-space: nowrap;">557.231</td>
+		<td style="white-space: nowrap;">556.183</td>
+	</tr>
+	<tr>
+		<td class="stub1">1999Q1</td>
+		<td style="white-space: nowrap;">566.763</td>
+		<td style="white-space: nowrap;">588.135</td>
+		<td style="white-space: nowrap;">588.188</td>
+	</tr>
+	<tr>
+		<td class="stub1">1999Q2</td>
+		<td style="white-space: nowrap;">643.041</td>
+		<td style="white-space: nowrap;">618.749</td>
+		<td style="white-space: nowrap;">617.987</td>
+	</tr>
+	<tr>
+		<td class="stub1">1999Q3</td>
+		<td style="white-space: nowrap;">638.095</td>
+		<td style="white-space: nowrap;">635.175</td>
+		<td style="white-space: nowrap;">632.043</td>
+	</tr>
+	<tr>
+		<td class="stub1">1999Q4</td>
+		<td style="white-space: nowrap;">629.099</td>
+		<td style="white-space: nowrap;">633.896</td>
+		<td style="white-space: nowrap;">643.492</td>
+	</tr>
+	<tr>
+		<td class="stub1">2000Q1</td>
+		<td style="white-space: nowrap;">629.129</td>
+		<td style="white-space: nowrap;">654.049</td>
+		<td style="white-space: nowrap;">638.116</td>
+	</tr>
+	<tr>
+		<td class="stub1">2000Q2</td>
+		<td style="white-space: nowrap;">625.235</td>
+		<td style="white-space: nowrap;">604.074</td>
+		<td style="white-space: nowrap;">619.192</td>
+	</tr>
+	<tr>
+		<td class="stub1">2000Q3</td>
+		<td style="white-space: nowrap;">618.875</td>
+		<td style="white-space: nowrap;">609.401</td>
+		<td style="white-space: nowrap;">598.674</td>
+	</tr>
+	<tr>
+		<td class="stub1">2000Q4</td>
+		<td style="white-space: nowrap;">583.777</td>
+		<td style="white-space: nowrap;">589.569</td>
+		<td style="white-space: nowrap;">595.909</td>
+	</tr>
+	<tr>
+		<td class="stub1">2001Q1</td>
+		<td style="white-space: nowrap;">583.701</td>
+		<td style="white-space: nowrap;">610.220</td>
+		<td style="white-space: nowrap;">613.544</td>
+	</tr>
+	<tr>
+		<td class="stub1">2001Q2</td>
+		<td style="white-space: nowrap;">670.565</td>
+		<td style="white-space: nowrap;">650.659</td>
+		<td style="white-space: nowrap;">643.438</td>
+	</tr>
+	<tr>
+		<td class="stub1">2001Q3</td>
+		<td style="white-space: nowrap;">659.706</td>
+		<td style="white-space: nowrap;">644.913</td>
+		<td style="white-space: nowrap;">641.854</td>
+	</tr>
+	<tr>
+		<td class="stub1">2001Q4</td>
+		<td style="white-space: nowrap;">605.385</td>
+		<td style="white-space: nowrap;">611.981</td>
+		<td style="white-space: nowrap;">637.402</td>
+	</tr>
+	<tr>
+		<td class="stub1">2002Q1</td>
+		<td style="white-space: nowrap;">644.064</td>
+		<td style="white-space: nowrap;">673.356</td>
+		<td style="white-space: nowrap;">654.692</td>
+	</tr>
+	<tr>
+		<td class="stub1">2002Q2</td>
+		<td style="white-space: nowrap;">694.833</td>
+		<td style="white-space: nowrap;">676.576</td>
+		<td style="white-space: nowrap;">683.645</td>
+	</tr>
+	<tr>
+		<td class="stub1">2002Q3</td>
+		<td style="white-space: nowrap;">740.637</td>
+		<td style="white-space: nowrap;">720.543</td>
+		<td style="white-space: nowrap;">723.461</td>
+	</tr>
+	<tr>
+		<td class="stub1">2002Q4</td>
+		<td style="white-space: nowrap;">760.763</td>
+		<td style="white-space: nowrap;">768.127</td>
+		<td style="white-space: nowrap;">749.456</td>
+	</tr>
+	<tr>
+		<td class="stub1">2003Q1</td>
+		<td style="white-space: nowrap;">703.650</td>
+		<td style="white-space: nowrap;">737.262</td>
+		<td style="white-space: nowrap;">752.942</td>
+	</tr>
+	<tr>
+		<td class="stub1">2003Q2</td>
+		<td style="white-space: nowrap;">793.316</td>
+		<td style="white-space: nowrap;">776.208</td>
+		<td style="white-space: nowrap;">769.697</td>
+	</tr>
+	<tr>
+		<td class="stub1">2003Q3</td>
+		<td style="white-space: nowrap;">832.873</td>
+		<td style="white-space: nowrap;">807.098</td>
+		<td style="white-space: nowrap;">809.771</td>
+	</tr>
+	<tr>
+		<td class="stub1">2003Q4</td>
+		<td style="white-space: nowrap;">837.362</td>
+		<td style="white-space: nowrap;">843.879</td>
+		<td style="white-space: nowrap;">841.177</td>
+	</tr>
+	<tr>
+		<td class="stub1">2004Q1</td>
+		<td style="white-space: nowrap;">822.873</td>
+		<td style="white-space: nowrap;">864.098</td>
+		<td style="white-space: nowrap;">865.977</td>
+	</tr>
+	<tr>
+		<td class="stub1">2004Q2</td>
+		<td style="white-space: nowrap;">901.712</td>
+		<td style="white-space: nowrap;">882.110</td>
+		<td style="white-space: nowrap;">879.728</td>
+	</tr>
+	<tr>
+		<td class="stub1">2004Q3</td>
+		<td style="white-space: nowrap;">916.317</td>
+		<td style="white-space: nowrap;">886.685</td>
+		<td style="white-space: nowrap;">889.278</td>
+	</tr>
+	<tr>
+		<td class="stub1">2004Q4</td>
+		<td style="white-space: nowrap;">892.778</td>
+		<td style="white-space: nowrap;">899.029</td>
+		<td style="white-space: nowrap;">896.433</td>
+	</tr>
+	<tr>
+		<td class="stub1">2005Q1</td>
+		<td style="white-space: nowrap;">854.856</td>
+		<td style="white-space: nowrap;">897.116</td>
+		<td style="white-space: nowrap;">908.708</td>
+	</tr>
+	<tr>
+		<td class="stub1">2005Q2</td>
+		<td style="white-space: nowrap;">946.441</td>
+		<td style="white-space: nowrap;">925.935</td>
+		<td style="white-space: nowrap;">925.591</td>
+	</tr>
+	<tr>
+		<td class="stub1">2005Q3</td>
+		<td style="white-space: nowrap;">966.335</td>
+		<td style="white-space: nowrap;">938.365</td>
+		<td style="white-space: nowrap;">926.765</td>
+	</tr>
+	<tr>
+		<td class="stub1">2005Q4</td>
+		<td style="white-space: nowrap;">897.990</td>
+		<td style="white-space: nowrap;">901.845</td>
+		<td style="white-space: nowrap;">910.786</td>
+	</tr>
+	<tr>
+		<td class="stub1">2006Q1</td>
+		<td style="white-space: nowrap;">849.947</td>
+		<td style="white-space: nowrap;">892.375</td>
+		<td style="white-space: nowrap;">875.040</td>
+	</tr>
+	<tr>
+		<td class="stub1">2006Q2</td>
+		<td style="white-space: nowrap;">862.112</td>
+		<td style="white-space: nowrap;">842.401</td>
+		<td style="white-space: nowrap;">872.536</td>
+	</tr>
+	<tr>
+		<td class="stub1">2006Q3</td>
+		<td style="white-space: nowrap;">973.709</td>
+		<td style="white-space: nowrap;">950.282</td>
+		<td style="white-space: nowrap;">896.967</td>
+	</tr>
+	<tr>
+		<td class="stub1">2006Q4</td>
+		<td style="white-space: nowrap;">906.310</td>
+		<td style="white-space: nowrap;">906.423</td>
+		<td style="white-space: nowrap;">922.198</td>
+	</tr>
+	<tr>
+		<td class="stub1">2007Q1</td>
+		<td style="white-space: nowrap;">900.510</td>
+		<td style="white-space: nowrap;">941.549</td>
+		<td style="white-space: nowrap;">942.598</td>
+	</tr>
+	<tr>
+		<td class="stub1">2007Q2</td>
+		<td style="white-space: nowrap;">995.836</td>
+		<td style="white-space: nowrap;">974.007</td>
+		<td style="white-space: nowrap;">960.661</td>
+	</tr>
+	<tr>
+		<td class="stub1">2007Q3</td>
+		<td style="white-space: nowrap;">947.055</td>
+		<td style="white-space: nowrap;">932.244</td>
+		<td style="white-space: nowrap;">942.473</td>
+	</tr>
+	<tr>
+		<td class="stub1">2007Q4</td>
+		<td style="white-space: nowrap;">932.373</td>
+		<td style="white-space: nowrap;">926.473</td>
+		<td style="white-space: nowrap;">926.134</td>
+	</tr>
+	<tr>
+		<td class="stub1">2008Q1</td>
+		<td style="white-space: nowrap;">890.796</td>
+		<td style="white-space: nowrap;">927.592</td>
+		<td style="white-space: nowrap;">928.882</td>
+	</tr>
+	<tr>
+		<td class="stub1">2008Q2</td>
+		<td style="white-space: nowrap;">930.860</td>
+		<td style="white-space: nowrap;">911.110</td>
+		<td style="white-space: nowrap;">900.202</td>
+	</tr>
+	<tr>
+		<td class="stub1">2008Q3</td>
+		<td style="white-space: nowrap;">840.195</td>
+		<td style="white-space: nowrap;">834.974</td>
+		<td style="white-space: nowrap;">850.568</td>
+	</tr>
+	<tr>
+		<td class="stub1">2008Q4</td>
+		<td style="white-space: nowrap;">829.875</td>
+		<td style="white-space: nowrap;">820.971</td>
+		<td style="white-space: nowrap;">790.111</td>
+	</tr>
+	<tr>
+		<td class="stub1">2009Q1</td>
+		<td style="white-space: nowrap;">673.880</td>
+		<td style="white-space: nowrap;">699.045</td>
+		<td style="white-space: nowrap;">725.951</td>
+	</tr>
+	<tr>
+		<td class="stub1">2009Q2</td>
+		<td style="white-space: nowrap;">689.256</td>
+		<td style="white-space: nowrap;">676.201</td>
+		<td style="white-space: nowrap;">676.271</td>
+	</tr>
+	<tr>
+		<td class="stub1">2009Q3</td>
+		<td style="white-space: nowrap;">671.998</td>
+		<td style="white-space: nowrap;">671.387</td>
+		<td style="white-space: nowrap;">673.208</td>
+	</tr>
+	<tr>
+		<td class="stub1">2009Q4</td>
+		<td style="white-space: nowrap;">702.075</td>
+		<td style="white-space: nowrap;">691.129</td>
+		<td style="white-space: nowrap;">690.273</td>
+	</tr>
+	<tr>
+		<td class="stub1">2010Q1</td>
+		<td style="white-space: nowrap;">675.222</td>
+		<td style="white-space: nowrap;">698.836</td>
+		<td style="white-space: nowrap;">691.660</td>
+	</tr>
+	<tr>
+		<td class="stub1">2010Q2</td>
+		<td style="white-space: nowrap;">680.905</td>
+		<td style="white-space: nowrap;">669.578</td>
+		<td style="white-space: nowrap;">677.095</td>
+	</tr>
+	<tr>
+		<td class="stub1">2010Q3</td>
+		<td style="white-space: nowrap;">675.979</td>
+		<td style="white-space: nowrap;">676.156</td>
+		<td style="white-space: nowrap;">676.682</td>
+	</tr>
+	<tr>
+		<td class="stub1">2010Q4</td>
+		<td style="white-space: nowrap;">697.107</td>
+		<td style="white-space: nowrap;">685.402</td>
+		<td style="white-space: nowrap;">681.985</td>
+	</tr>
+	<tr>
+		<td class="stub1">2011Q1</td>
+		<td style="white-space: nowrap;">649.493</td>
+		<td style="white-space: nowrap;">671.359</td>
+		<td style="white-space: nowrap;">679.045</td>
+	</tr>
+	<tr>
+		<td class="stub1">2011Q2</td>
+		<td style="white-space: nowrap;">690.670</td>
+		<td style="white-space: nowrap;">681.986</td>
+		<td style="white-space: nowrap;">679.152</td>
+	</tr>
+	<tr>
+		<td class="stub1">2011Q3</td>
+		<td style="white-space: nowrap;">677.605</td>
+		<td style="white-space: nowrap;">674.939</td>
+		<td style="white-space: nowrap;">667.221</td>
+	</tr>
+	<tr>
+		<td class="stub1">2011Q4</td>
+		<td style="white-space: nowrap;">653.238</td>
+		<td style="white-space: nowrap;">642.870</td>
+		<td style="white-space: nowrap;">654.784</td>
+	</tr>
+	<tr>
+		<td class="stub1">2012Q1</td>
+		<td style="white-space: nowrap;">660.053</td>
+		<td style="white-space: nowrap;">683.534</td>
+		<td style="white-space: nowrap;">684.363</td>
+	</tr>
+	<tr>
+		<td class="stub1">2012Q2</td>
+		<td style="white-space: nowrap;">739.388</td>
+		<td style="white-space: nowrap;">732.420</td>
+		<td style="white-space: nowrap;">717.813</td>
+	</tr>
+	<tr>
+		<td class="stub1">2012Q3</td>
+		<td style="white-space: nowrap;">708.650</td>
+		<td style="white-space: nowrap;">699.540</td>
+		<td style="white-space: nowrap;">727.753</td>
+	</tr>
+	<tr>
+		<td class="stub1">2012Q4</td>
+		<td style="white-space: nowrap;">762.353</td>
+		<td style="white-space: nowrap;">750.568</td>
+		<td style="white-space: nowrap;">746.695</td>
+	</tr>
+	<tr>
+		<td class="stub1">2013Q1</td>
+		<td style="white-space: nowrap;">743.654</td>
+		<td style="white-space: nowrap;">774.999</td>
+		<td style="white-space: nowrap;">769.193</td>
+	</tr>
+	<tr>
+		<td class="stub1">2013Q2</td>
+		<td style="white-space: nowrap;">779.142</td>
+		<td style="white-space: nowrap;">771.796</td>
+		<td style="white-space: nowrap;">779.763</td>
+	</tr>
+	<tr>
+		<td class="stub1">2013Q3</td>
+		<td style="white-space: nowrap;">818.713</td>
+		<td style="white-space: nowrap;">804.813</td>
+		<td style="white-space: nowrap;">798.958</td>
+	</tr>
+	<tr>
+		<td class="stub1">2013Q4</td>
+		<td style="white-space: nowrap;">844.081</td>
+		<td style="white-space: nowrap;">829.407</td>
+		<td style="white-space: nowrap;">835.657</td>
+	</tr>
+	<tr>
+		<td class="stub1">2014Q1</td>
+		<td style="white-space: nowrap;">839.888</td>
+		<td style="white-space: nowrap;">880.677</td>
+		<td style="white-space: nowrap;">872.717</td>
+	</tr>
+	<tr>
+		<td class="stub1">2014Q2</td>
+		<td style="white-space: nowrap;">919.439</td>
+		<td style="white-space: nowrap;">908.607</td>
+		<td style="white-space: nowrap;">921.388</td>
+	</tr>
+	<tr>
+		<td class="stub1">2014Q3</td>
+		<td style="white-space: nowrap;">989.095</td>
+		<td style="white-space: nowrap;">971.595</td>
+		<td style="white-space: nowrap;">953.192</td>
+	</tr>
+	<tr>
+		<td class="stub1">2014Q4</td>
+		<td style="white-space: nowrap;">976.497</td>
+		<td style="white-space: nowrap;">953.977</td>
+		<td style="white-space: nowrap;">972.544</td>
+	</tr>
+	<tr>
+		<td class="stub1">2015Q1</td>
+		<td style="white-space: nowrap;">934.397</td>
+		<td style="white-space: nowrap;">990.719</td>
+		<td style="white-space: nowrap;">974.909</td>
+	</tr>
+	<tr>
+		<td class="stub1">2015Q2</td>
+		<td style="white-space: nowrap;">977.130</td>
+		<td style="white-space: nowrap;">963.921</td>
+		<td style="white-space: nowrap;">971.128</td>
+	</tr>
+	<tr>
+		<td class="stub1">2015Q3</td>
+		<td style="white-space: nowrap;">989.777</td>
+		<td style="white-space: nowrap;">971.004</td>
+		<td style="white-space: nowrap;">979.410</td>
+	</tr>
+	<tr>
+		<td class="stub1">2015Q4</td>
+		<td style="white-space: nowrap;">1,039.583</td>
+		<td style="white-space: nowrap;">1,011.239</td>
+		<td style="white-space: nowrap;">987.816</td>
+	</tr>
+	<tr>
+		<td class="stub1">2016Q1</td>
+		<td style="white-space: nowrap;">907.508</td>
+		<td style="white-space: nowrap;">969.417</td>
+		<td style="white-space: nowrap;">1,000.979</td>
+	</tr>
+	<tr>
+		<td class="stub1">2016Q2</td>
+		<td style="white-space: nowrap;">1,067.713</td>
+		<td style="white-space: nowrap;">1,049.325</td>
+		<td style="white-space: nowrap;">1,023.013</td>
+	</tr>
+	<tr>
+		<td class="stub1">2016Q3</td>
+		<td style="white-space: nowrap;">1,042.924</td>
+		<td style="white-space: nowrap;">1,024.906</td>
+		<td style="white-space: nowrap;">1,035.272</td>
+	</tr>
+	<tr>
+		<td class="stub1">2016Q4</td>
+		<td style="white-space: nowrap;">1,061.019</td>
+		<td style="white-space: nowrap;">1,028.444</td>
+		<td style="white-space: nowrap;">1,032.973</td>
+	</tr>
+	<tr>
+		<td class="stub1">2017Q1</td>
+		<td style="white-space: nowrap;">976.154</td>
+		<td style="white-space: nowrap;">1,051.042</td>
+		<td style="white-space: nowrap;">1,038.911</td>
+	</tr>
+	<tr>
+		<td class="stub1">2017Q2</td>
+		<td style="white-space: nowrap;">1,044.528</td>
+		<td style="white-space: nowrap;">1,022.124</td>
+		<td style="white-space: nowrap;">1,031.985</td>
+	</tr>
+	<tr>
+		<td class="stub1">2017Q3</td>
+		<td style="white-space: nowrap;">1,054.715</td>
+		<td style="white-space: nowrap;">1,036.324</td>
+		<td style="white-space: nowrap;">1,038.240</td>
+	</tr>
+	<tr>
+		<td class="stub1">2017Q4</td>
+		<td style="white-space: nowrap;">1,105.758</td>
+		<td style="white-space: nowrap;">1,069.618</td>
+		<td style="white-space: nowrap;">1,038.199</td>
+	</tr>
+	<tr>
+		<td class="stub1">2018Q1</td>
+		<td style="white-space: nowrap;">935.615</td>
+		<td style="white-space: nowrap;">1,009.287</td>
+		<td style="white-space: nowrap;">1,026.781</td>
+	</tr>
+	<tr>
+		<td class="stub1">2018Q2</td>
+		<td style="white-space: nowrap;">1,075.980</td>
+		<td style="white-space: nowrap;">1,051.277</td>
+		<td style="white-space: nowrap;">1,050.306</td>
+	</tr>
+	<tr>
+		<td class="stub1">2018Q3</td>
+		<td style="white-space: nowrap;">1,107.688</td>
+		<td style="white-space: nowrap;">1,090.690</td>
+		<td style="white-space: nowrap;">1,073.694</td>
+	</tr>
+	<tr>
+		<td class="stub1">2018Q4</td>
+		<td style="white-space: nowrap;">1,087.667</td>
+		<td style="white-space: nowrap;">1,051.507</td>
+		<td style="white-space: nowrap;">1,071.548</td>
+	</tr>
+	<tr>
+		<td class="stub1">2019Q1</td>
+		<td style="white-space: nowrap;">1,009.119</td>
+		<td style="white-space: nowrap;">1,089.186</td>
+		<td style="white-space: nowrap;">1,080.065</td>
+	</tr>
+	<tr>
+		<td class="stub1">2019Q2</td>
+		<td style="white-space: nowrap;">1,111.974</td>
+		<td style="white-space: nowrap;">1,086.244</td>
+		<td style="white-space: nowrap;">1,082.446</td>
+	</tr>
+	<tr>
+		<td class="stub1">2019Q3</td>
+		<td style="white-space: nowrap;">1,064.199</td>
+		<td style="white-space: nowrap;">1,049.417</td>
+		<td style="white-space: nowrap;">1,054.878</td>
+	</tr>
+	<tr>
+		<td class="stub1">2019Q4</td>
+		<td style="white-space: nowrap;">1,073.059</td>
+		<td style="white-space: nowrap;">1,037.169</td>
+		<td style="white-space: nowrap;">1,034.898</td>
+	</tr>
+	<tr>
+		<td class="stub1">2020Q1</td>
+		<td style="white-space: nowrap;">960.639</td>
+		<td style="white-space: nowrap;">1,033.586</td>
+		<td style="white-space: nowrap;">1,034.615</td>
+	</tr>
+	<tr>
+		<td class="stub1">2020Q2</td>
+		<td style="white-space: nowrap;">812.906</td>
+		<td style="white-space: nowrap;">796.476</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2020Q3</td>
+		<td style="white-space: nowrap;">1,111.544</td>
+		<td style="white-space: nowrap;">1,098.447</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2020Q4</td>
+		<td style="white-space: nowrap;">1,160.415</td>
+		<td style="white-space: nowrap;">1,118.424</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2021Q1</td>
+		<td style="white-space: nowrap;">1,065.456</td>
+		<td style="white-space: nowrap;">1,144.186</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2021Q2</td>
+		<td style="white-space: nowrap;">1,199.674</td>
+		<td style="white-space: nowrap;">1,176.857</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2021Q3</td>
+		<td style="white-space: nowrap;">967.055</td>
+		<td style="white-space: nowrap;">957.532</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2021Q4</td>
+		<td style="white-space: nowrap;">1,290.076</td>
+		<td style="white-space: nowrap;">1,242.227</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2022Q1</td>
+		<td style="white-space: nowrap;">1,123.971</td>
+		<td style="white-space: nowrap;">1,204.355</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="stub1">2022Q2</td>
+		<td style="white-space: nowrap;">1,203.918</td>
+		<td style="white-space: nowrap;">1,183.126</td>
+		<td style="white-space: nowrap;">..</td>
+	</tr>
+	<tr>
+		<td class="footnote" colspan="4">
+			<a id="information">
+				<b>Table information:</b>
+			</a>
+			<br />Units:<br />m3, Magnitude = Thousands<br /><br /><a id="footnotes"><b>Footnotes:</b></a><br /> <br />Symbols:<br />.. figure not available<br />C: Confidential<br />E: Early Estimate<br />P: Provisional<br />R: Revised<br />S: Suppressed<br /><br />Status flags are not displayed<br /><br />Table reference: <br />SEP067AA<br /><br />Last updated:<br />10 August 2022 10:45am<br /><br />Source: Statistics New Zealand<br />Contact: Information Centre<br />Telephone: 0508 525 525<br />Email:<a href="mailto:info@stats.govt.nz">info@stats.govt.nz</a><br /><br /><br /></td>
+	</tr>
+</table>	</body>
+</html>
